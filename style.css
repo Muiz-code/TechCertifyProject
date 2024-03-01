@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+nav {
+  background: #0c2027;
+}
+.text li a {
+  color: white;
+  text-decoration: none;
+}
+.text li a:hover {
+  color: #f06523;
+}
+
+.drop li a {
+  color: white;
+}
+.drop li a:active {
+  background: #0c2027;
+}
+.button {
+  border: none;
+  border-radius: 7px;
+  padding: 10px;
+}
+.button:hover {
+  transform: scale(1.05);
+  transition: 1s ease-in-out;
+}
